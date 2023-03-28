@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "icon": "boostedphotos/image-1.jpg",
+        "title":"Asus Laptop",
+        "price":"25,000"
+    },
+    {
+        "id":2,
+        "icon": "boostedphotos/image-2.webp",
+        "title":"iPhone 14 Case",
+        "price":"300"
+    },
+    {
+        "id":3,
+        "icon": "boostedphotos/image-3.webp",
+        "title":"Earpods Case",
+        "price":"200"
+    },
+    {
+        "id":4,
+        "icon": "boostedphotos/image-4.png",
+        "title":"Marshall Speaker",
+        "price":"7000"
+    }
+]

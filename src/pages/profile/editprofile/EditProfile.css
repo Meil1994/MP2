@@ -1,0 +1,45 @@
+.profile_change input{
+    display: block;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+.profile_change{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(246, 246, 246);
+    box-shadow: 0 0 20px black;
+}
+
+.edit_buttons{
+    display: flex;
+    justify-content: space-between;
+}
+.edit_buttons button{
+    width: 120px;
+    height: 30px;
+    border: 1px solid black;
+    background-color: white;
+}
+.edit_buttons button:hover{
+    background-color: rgb(123, 123, 123);
+    color: white;
+}
+.link{
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    background-color: white;
+}
+.link:hover{
+    background-color: rgb(123, 123, 123);
+    color: white;
+}

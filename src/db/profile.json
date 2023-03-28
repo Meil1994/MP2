@@ -1,0 +1,19 @@
+{
+  "profile": [
+    {
+      "logo": "photos/logo.jpg",
+      "firstname": "Jason",
+      "lastname": "Adams",
+      "email": "jason@gmail.com",
+      "contact": "09369361714",
+      "housenumber": "0",
+      "street": "Cabaluna Street",
+      "brgy": "New Visayas",
+      "city": "Panabo City",
+      "province": "Davao del Norte",
+      "postcode": "8000",
+      "password": "123456",
+      "id": 1
+    }
+  ]
+}

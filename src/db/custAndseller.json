@@ -1,0 +1,208 @@
+{
+  "user": [
+    {
+      "customerorders": [
+        {
+          "id": 2,
+          "icon": "photos/image-1.png",
+          "title": "Varsity Logo Bomber Jacket",
+          "seller": "Sofia B.",
+          "price": "10,000"
+        },
+        {
+          "id": 3,
+          "icon": "photos/image-2.png",
+          "title": "Repeat Belt Bag by Versace",
+          "seller": "Andres A.",
+          "price": "12,000"
+        },
+        {
+          "id": 4,
+          "icon": "photos/image-3.png",
+          "title": "Logo Windbreaker Jacket",
+          "seller": "Mark C.",
+          "price": "5,000"
+        },
+        {
+          "id": 5,
+          "icon": "photos/image-4.png",
+          "title": "Fjällräven Expedition Jacket",
+          "seller": "Mark C.",
+          "price": "4,000"
+        },
+        {
+          "id": 6,
+          "icon": "photos/image-5.png",
+          "title": "Fjällräven Equipment T-Shirt",
+          "seller": "Mark C.",
+          "price": "1,000"
+        },
+        {
+          "id": 7,
+          "icon": "photos/image-6.png",
+          "title": "Fjällräven Vidda Pro Trousers",
+          "seller": "Mark C.",
+          "price": "2,000"
+        }
+      ],
+      "topay": [
+        {
+          "id": 8,
+          "icon": "photos/image-5.png",
+          "title": "Fjällräven Equipment T-Shirt",
+          "seller": "Mark C.",
+          "price": "1,000"
+        },
+        {
+          "id": 9,
+          "icon": "photos/image-6.png",
+          "title": "Fjällräven Vidda Pro Trousers",
+          "seller": "Mark C.",
+          "price": "2,000"
+        }
+      ],
+      "toship": [
+        {
+          "id": 10,
+          "icon": "photos/image-3.png",
+          "title": "Logo Windbreaker Jacket",
+          "seller": "Mark C.",
+          "price": "5,000"
+        },
+        {
+          "id": 11,
+          "icon": "photos/image-4.png",
+          "title": "Fjällräven Expedition Jacket",
+          "seller": "Mark C.",
+          "price": "4,000"
+        }
+      ],
+      "toreceive": [
+        {
+          "id": 12,
+          "icon": "photos/image-1.png",
+          "title": "Varsity Logo Bomber Jacket",
+          "seller": "Sofia B.",
+          "price": "10,000"
+        }
+      ],
+      "canceled": [
+        {
+          "id": 13,
+          "icon": "photos/image-2.png",
+          "title": "Repeat Belt Bag by Versace",
+          "seller": "Andres A.",
+          "price": "12,000"
+        }
+      ],
+      "selleritems": [
+        {
+          "id": 14,
+          "icon": "photos/image-1.png",
+          "title": "Varsity Logo Bomber Jacket",
+          "seller": "Sofia B.",
+          "price": "10,000"
+        },
+        {
+          "id": 15,
+          "icon": "photos/image-2.png",
+          "title": "Repeat Belt Bag by Versace",
+          "seller": "Andres A.",
+          "price": "12,000"
+        },
+        {
+          "id": 16,
+          "icon": "photos/image-3.png",
+          "title": "Logo Windbreaker Jacket",
+          "seller": "Mark C.",
+          "price": "5,000"
+        },
+        {
+          "id": 17,
+          "icon": "photos/image-4.png",
+          "title": "Fjällräven Expedition Jacket",
+          "seller": "Mark C.",
+          "price": "4,000"
+        },
+        {
+          "id": 18,
+          "icon": "photos/image-5.png",
+          "title": "Fjällräven Equipment T-Shirt",
+          "seller": "Mark C.",
+          "price": "1,000"
+        }
+      ],
+      "slrToShp": [
+        {
+          "id": 19,
+          "icon": "photos/image-3.png",
+          "title": "Logo Windbreaker Jacket",
+          "seller": "Mark C.",
+          "price": "5,000"
+        },
+        {
+          "id": 20,
+          "icon": "photos/image-4.png",
+          "title": "Fjällräven Expedition Jacket",
+          "seller": "Mark C.",
+          "price": "4,000"
+        }
+      ],
+      "slrcompleted": [
+        {
+          "id": 21,
+          "icon": "photos/image-5.png",
+          "title": "Fjällräven Equipment T-Shirt",
+          "seller": "Mark C.",
+          "price": "1,000"
+        },
+        {
+          "id": 22,
+          "icon": "photos/image-6.png",
+          "title": "Fjällräven Vidda Pro Trousers",
+          "seller": "Mark C.",
+          "price": "2,000"
+        }
+      ],
+      "slrcanceled": [
+        {
+          "id": 23,
+          "icon": "photos/image-2.png",
+          "title": "Repeat Belt Bag by Versace",
+          "seller": "Andres A.",
+          "price": "12,000"
+        }
+      ],
+      "slrInventory": [
+        {
+          "id": 24,
+          "icon": "photos/image-1.png",
+          "title": "Varsity Logo Bomber Jacket",
+          "seller": "Sofia B.",
+          "price": "10,000"
+        },
+        {
+          "id": 25,
+          "icon": "photos/image-2.png",
+          "title": "Repeat Belt Bag by Versace",
+          "seller": "Andres A.",
+          "price": "12,000"
+        },
+        {
+          "id": 26,
+          "icon": "photos/image-3.png",
+          "title": "Logo Windbreaker Jacket",
+          "seller": "Mark C.",
+          "price": "5,000"
+        },
+        {
+          "id": 27,
+          "icon": "photos/image-4.png",
+          "title": "Fjällräven Expedition Jacket",
+          "seller": "Mark C.",
+          "price": "4,000"
+        }
+      ]
+    }
+  ]
+}

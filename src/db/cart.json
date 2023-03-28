@@ -1,0 +1,25 @@
+{
+  "cart": [
+    {
+      "icon": "photos/image-2.png",
+      "title": "Repeat Belt Bag by Versace",
+      "seller": "Andres A.",
+      "price": "4000",
+      "id": 1
+    },
+    {
+      "icon": "photos/image-3.png",
+      "title": "Logo Windbreaker Jacket",
+      "seller": "Mark C.",
+      "price": "5000",
+      "id": 2
+    },
+    {
+      "icon": "photos/image-1.png",
+      "title": "Varsity Logo Bomber Jacket",
+      "seller": "Sofia B.",
+      "price": "6000",
+      "id": 3
+    }
+  ]
+}
