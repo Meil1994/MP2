@@ -2,8 +2,15 @@ import React from 'react'
 import './Nav.css'
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import logo from '../../../photos/logo1.png'
+import { useNavigate} from "react-router-dom";
 
 function Nav() {
+    const navigate=useNavigate();
+
+    const LoadStore = () => {
+        navigate("/storeitems")
+      }
+
   return(
       <div className="container-fluid">
           <div className="row nav-row">
@@ -13,7 +20,7 @@ function Nav() {
 
                <div className="col-md-4 nav-li">
                   <ul>
-                      <li>HOME</li>
+                      <li onClick={LoadStore}>HOME</li>
                       <li>
                       <NavDropdown
                           id="nav-dropdown-dark-example"

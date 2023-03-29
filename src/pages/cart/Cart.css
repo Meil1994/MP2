@@ -1,0 +1,33 @@
+.cart-row{
+    background-color: rgba(152, 8, 8, 1);
+}
+.cart-logo{
+    text-align: center;
+}
+.cart-logo img{
+    width: 150px;
+}
+.cart-li ul{
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+    align-items: center;
+}
+.cart-li li{
+    color: white;
+    cursor: pointer;
+}
+.cart-li li:hover{
+    color: rgb(168, 168, 168);
+}
+.card{
+    margin-top: 80px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+}
+.cart-buttons{
+    display: flex;
+    justify-content: space-between;
+}

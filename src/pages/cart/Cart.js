@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
+import './Cart.css'
+import Logo from '../../photos/logo1.png'
 
 const EmpListing = () => {
     const [empdata, empdatachange] = useState(null);
@@ -11,6 +13,10 @@ const EmpListing = () => {
     const LoadDashboard = () => {
       navigate("/profile")
     }
+
+    const LoadStore = () => {
+        navigate("/storeitems")
+      }
 
     const Removefunction = (id) => {
         if (window.confirm('Do you want to remove?')) {
@@ -37,9 +43,17 @@ const EmpListing = () => {
 
 
     return (
-        <div className="container">
-            <div>
-              <button onClick={LoadDashboard}>Dashboard</button>
+        <div className="container-fluid">
+            <div className="row cart-row">
+                <div className="col-lg-3 cart-logo">
+                    <img src={Logo}/>
+                </div>
+                <div className="col-lg-9 cart-li">
+                    <ul>
+                        <li onClick={LoadStore}>HOME</li>
+                        <li onClick={LoadDashboard}>PROFILE DASHBOARD</li>
+                    </ul>
+                </div>
             </div>
             <div className="card">
                 <div className="card-body">
@@ -62,7 +76,7 @@ const EmpListing = () => {
                                         <td>{item.title}</td>
                                         <td>{item.seller}</td>
                                         <td>{item.price}</td>
-                                        <td>
+                                        <td className="cart-buttons">
                                             <a onClick={() => { Removefunction(item.id) }} className="btn btn-danger">Remove</a>
                                             <a onClick={() => {LoadCheckout(item.id)}} className='btn btn-primary'>Checkout</a>
                                         </td>
