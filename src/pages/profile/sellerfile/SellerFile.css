@@ -56,3 +56,24 @@
     color: rgb(5, 5, 164);
     background-color: rgb(206, 203, 203);
 }
+.uploaditems{
+    padding: 20px;
+}
+.uploaditems input{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+}
+.uploadbutton{
+    display: flex;
+}
+.uploadbutton button{
+    height: 30px;
+    width: 150px;
+    border: none;
+    background-color: brown;
+    color: white;
+}
+.uploadbutton button:hover{
+    background-color: rgb(114, 22, 22);
+}

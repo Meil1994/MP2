@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import './Cart.css'
 import Logo from '../../photos/logo1.png'
 
@@ -51,43 +51,32 @@ const EmpListing = () => {
                 <div className="col-lg-9 cart-li">
                     <ul>
                         <li onClick={LoadStore}>HOME</li>
-                        <li onClick={LoadDashboard}>PROFILE DASHBOARD</li>
+                        <li onClick={LoadDashboard}>PROFILE</li>
                     </ul>
                 </div>
             </div>
             <div className="card">
-                <div className="card-body">
-                    <table className="table table-bordered">
-                        <thead className="bg-dark text-white">
-                            <tr>
-                                <td>Icon</td>
-                                <td>Title</td>
-                                <td>Seller</td>
-                                <td>Price</td>
-                                <td>Action</td>
-                            </tr>
-                        </thead>
-                        <tbody>
-
-                            {empdata &&
-                                empdata.map(item => (
-                                    <tr key={item.id}>
-                                        <td><img src={item.icon} alt="web-logo" /></td>
-                                        <td>{item.title}</td>
-                                        <td>{item.seller}</td>
-                                        <td>{item.price}</td>
-                                        <td className="cart-buttons">
-                                            <a onClick={() => { Removefunction(item.id) }} className="btn btn-danger">Remove</a>
-                                            <a onClick={() => {LoadCheckout(item.id)}} className='btn btn-primary'>Checkout</a>
-                                        </td>
-                                    </tr>
-                                ))
-                            }
-
-                        </tbody>
-
-                    </table>
-                </div>
+                {empdata &&
+                    empdata.map(item => (
+                        <div key={item.id}>
+                            <div className="cart-container">
+                                <div className="cart-icon">
+                                    <img src={item.icon} alt="web-logo" />
+                                </div>
+                                <div className="cart-seller">
+                                    <h3>{item.title}</h3>
+                                    <p>Sold by: {item.seller}</p>
+                                    <h5>PHP {item.price}</h5>
+                                    <div className="cart-buttons">
+                                        <a onClick={() => { Removefunction(item.id) }} className="btn btn-danger">Remove</a>
+                                        <a onClick={() => {LoadCheckout(item.id)}} className='btn btn-primary'>Checkout</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr/>
+                        </div>
+                    ))
+                }
             </div>
         </div>
     );

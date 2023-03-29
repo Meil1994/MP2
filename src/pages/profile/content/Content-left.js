@@ -11,6 +11,7 @@ import ToShipSeller from '../sellerfile/ToShipSeller';
 import CompletedSeller from '../sellerfile/CompletedSeller'
 import CanceledSeller from '../sellerfile/CanceledSeller'
 import InventoryItemsSeller from '../sellerfile/InventoryItemsSeller'
+import UploadItems from '../sellerfile/UploadItems';
 
 
 const ContentLeft = () => {
@@ -69,6 +70,7 @@ const ContentLeft = () => {
                    <i class="fa-solid fa-tags" onClick={()=> handleChangePage('selleritems')}> Seller Items</i>
                </div>
                <div className="box1-2-buttons">
+                   <button onClick={() => handleChangePage('uploaditems')}>Sell an Item</button>
                    <button onClick={() => handleChangePage('toshipseller')}>To Ship</button>
                    <button onClick={() => handleChangePage('completedseller')}>Completed</button>
                    <button onClick={() => handleChangePage('canceledseller')}>Canceled</button>
@@ -88,6 +90,7 @@ const ContentLeft = () => {
             {currentPage === 'toreceive' ? <ToReceive/> : null}
             {currentPage === 'ordercanceled' ? <Canceled/> : null}
 
+            {currentPage === 'uploaditems' ? <UploadItems/> : null}
             {currentPage === 'selleritems' ? <SellerItems/> : null}
             {currentPage === 'toshipseller' ? <ToShipSeller/> : null}
             {currentPage === 'completedseller' ? <CompletedSeller/> : null}

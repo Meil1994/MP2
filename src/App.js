@@ -6,6 +6,7 @@ import EditProfile from "./pages/profile/editprofile/EditProfile";
 import Cart from "./pages/cart/Cart";
 import Store from "./pages/store/Store";
 import Checkout from './pages/checkout/Checkout'
+import PaymentSuccess from "./pages/payment_success/PaymentSuccess";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Route path="/cart" element={<Cart/>}/>
       <Route path="/storeitems" element={<Store/>}/>
       <Route path="/checkout/:empid" element={<Checkout/>}/>
+      <Route path="/success" element={<PaymentSuccess/>}/>
       </Route>
     </Routes>
   );

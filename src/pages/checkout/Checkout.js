@@ -31,9 +31,6 @@ const Checkout = () => {
     const [amount, setamount] = useState(1);
     const navigate=useNavigate();
 
-    const LoadDashboard = () => {
-        navigate("/profile")
-      }
     const LoadCart = () => {
         navigate("/cart")
       }
@@ -93,7 +90,7 @@ const Checkout = () => {
         body:JSON.stringify(empdata)
       }).then((res)=>{
         alert('Thank you for ordering with us!')
-    
+        navigate('/success');
       }).catch((err)=>{
         console.log(err.message)
       })

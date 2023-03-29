@@ -1,0 +1,47 @@
+.success-box{
+    border: 2px solid black;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    height: 350px;
+    border-radius: 20px;
+    text-align: center;
+}
+.check{
+    border-top-right-radius: 18px;
+    border-top-left-radius: 18px;
+    text-align: center;
+    height: 100px;
+    background-color: rgba(152, 8, 8, 1);
+}
+.check i{
+    font-size: 70px;
+    color: white;
+    margin-top: 13px;
+}
+.success-box h3{
+    margin-top: 40px;
+}
+.success-box button{
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 15px;
+    background-color: rgba(152, 8, 8, 1);
+    color: white;
+    border: none;
+}
+.success-box button:hover{
+    color: rgb(161, 161, 161);
+}
+@media only screen and (max-width: 700px){
+    .success-box{
+        width: 70%;
+    }
+}
+@media only screen and (max-width: 400px){
+    .success-box{
+        width: 80%;
+    }
+}
