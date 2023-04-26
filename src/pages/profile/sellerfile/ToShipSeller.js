@@ -18,7 +18,7 @@ const ToShipSeller = () => {
                               <h6>{ orders.title }</h6>
                               <h5>PHP { orders.price }</h5>
                               <ul>
-                                  <li><a href=''>Contact Buyer</a></li>
+                                  <li><a href=''>Mark as Shipped</a></li>
                                   <li><a href=''>Contact Support</a></li>
                               </ul>
                           </div>

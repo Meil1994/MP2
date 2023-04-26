@@ -7,6 +7,10 @@ import Cart from "./pages/cart/Cart";
 import Store from "./pages/store/Store";
 import Checkout from './pages/checkout/Checkout'
 import PaymentSuccess from "./pages/payment_success/PaymentSuccess";
+import SelectedSellerItems from "./pages/profile/sellerfile/SelectedSellerItems";
+import Bid from "./pages/store/Bid";
+import Hour from "./pages/store/hour";
+import StoreItem from "./pages/store/StoreItem";
 
 function App() {
   return (
@@ -18,6 +22,10 @@ function App() {
       <Route path="/storeitems" element={<Store/>}/>
       <Route path="/checkout/:empid" element={<Checkout/>}/>
       <Route path="/success" element={<PaymentSuccess/>}/>
+      <Route path="/sellers/item/:id" element={<SelectedSellerItems/>}/>
+      <Route path="/bid" element={<Bid/>}/>
+      <Route path="/hour" element={<Hour/>}/>
+      <Route path="/store/item/:empid" element={<StoreItem/>}/>
       </Route>
     </Routes>
   );

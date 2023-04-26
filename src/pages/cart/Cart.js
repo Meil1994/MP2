@@ -45,10 +45,10 @@ const EmpListing = () => {
     return (
         <div className="container-fluid">
             <div className="row cart-row">
-                <div className="col-lg-3 cart-logo">
+                <div className="col-lg-6 cart-logo">
                     <img src={Logo}/>
                 </div>
-                <div className="col-lg-9 cart-li">
+                <div className="col-lg-6 cart-li">
                     <ul>
                         <li onClick={LoadStore}>HOME</li>
                         <li onClick={LoadDashboard}>PROFILE</li>
@@ -56,6 +56,7 @@ const EmpListing = () => {
                 </div>
             </div>
             <div className="card">
+            <h4>Cart <i class="fa-sharp fa-solid fa-bag-shopping"></i></h4>
                 {empdata &&
                     empdata.map(item => (
                         <div key={item.id}>

@@ -7,3 +7,107 @@
     margin-right: auto;
     padding: 20px;
 }
+.nav-social{
+    text-align: center;
+}
+
+.dashboard-nav{
+    background-color: rgba(152, 8, 8, 1);
+}
+.dash-logo{
+    text-align: center;
+    padding-top: 10px;
+}
+.dash-logo img{
+    width: 150px;
+}
+.dash-ul ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0;
+}
+.dash-ul li{
+    color: white;
+}
+.dash-ul{
+    color: white;
+    align-items: center;
+    padding: 0;
+}
+.dash-ul li{
+    margin: 30px;
+    cursor: pointer;
+}
+.dash-ul li:hover{
+    color: rgb(194, 189, 189);
+}
+.bidding-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+}
+.item-container{
+    box-shadow: 0 0 10px black;
+    width: 30%;
+    display: flex;
+    padding: 40px;
+    margin-top: 50px;
+}
+.bids{
+    width: 70%;
+    padding: 10px;
+    padding-left: 15px;
+    margin-bottom: 10px;
+    background-color: rgba(152, 8, 8, 1);
+    color: white;
+}
+@media only screen and (max-width: 1046px){
+    .item-container{
+        width: 45%;
+    }
+    .nav-social{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 695px){
+    .item-container{
+        width: 70%;
+    }
+}
+@media only screen and (max-width: 461px){
+    .item-container{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 335px){
+    .item-container{
+        width: 100%;
+        display: block;
+    }
+}
+.labels{
+    border: 2px solid black;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 100px;
+    padding: 40px;
+}
+.store-buttons{
+    width: 150px;
+    background-color: rgb(90, 149, 204);
+    border: none;
+}
+.store-buttons:hover{
+    background-color: rgb(68, 137, 202);
+    color: white;
+}
+.store-b{
+    display: flex;
+    justify-content: space-between;
+}
+.store-buttons-1{
+    border: none;
+    background-color: red;
+}

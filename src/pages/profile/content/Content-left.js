@@ -1,8 +1,7 @@
 import './Content.css'
-import { Link, useNavigate} from 'react-router-dom';
+import {useNavigate, useLocation } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import MyOrders from '../customerfile/MyOrders'
-import ToPay from '../customerfile/ToPay'
 import ToShip from '../customerfile/ToShip';
 import ToReceive from '../customerfile/ToReceive'
 import Canceled from '../customerfile/Canceled'
@@ -60,7 +59,6 @@ const ContentLeft = () => {
                    <i className="fa-sharp fa-solid fa-bag-shopping" onClick={() => handleChangePage('myorders')}> My Orders</i>
                </div>
                <div className="box1-2-buttons">
-                   <button onClick={() => handleChangePage('topay')}>To Pay</button>
                    <button onClick={() => handleChangePage('toship')}>To Ship</button>
                    <button onClick={() => handleChangePage('toreceive')}>To Receive</button>
                    <button onClick={() => handleChangePage('ordercanceled')}>Canceled</button>
@@ -72,9 +70,9 @@ const ContentLeft = () => {
                <div className="box1-2-buttons">
                    <button onClick={() => handleChangePage('uploaditems')}>Sell an Item</button>
                    <button onClick={() => handleChangePage('toshipseller')}>To Ship</button>
+                   <button onClick={() => handleChangePage('inventoryitemsseller')}>Shipped</button>
                    <button onClick={() => handleChangePage('completedseller')}>Completed</button>
                    <button onClick={() => handleChangePage('canceledseller')}>Canceled</button>
-                   <button onClick={() => handleChangePage('inventoryitemsseller')}>Inventory Items</button>
                </div>
                    <br/>
                <div className='box1-2-tag'>
@@ -85,7 +83,6 @@ const ContentLeft = () => {
         <div className='col-lg-8 col-left'>
             <div className='order-middle'>
             {currentPage === 'myorders' ? <MyOrders/> : null}
-            {currentPage === 'topay' ? <ToPay/> : null}
             {currentPage === 'toship' ? <ToShip/> : null}
             {currentPage === 'toreceive' ? <ToReceive/> : null}
             {currentPage === 'ordercanceled' ? <Canceled/> : null}

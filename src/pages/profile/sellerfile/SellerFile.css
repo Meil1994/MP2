@@ -77,3 +77,18 @@
 .uploadbutton button:hover{
     background-color: rgb(114, 22, 22);
 }
+.editItems{
+    border: 2px solid black;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    display: flex;
+    padding: 40px;
+}
+.editImage{
+    width: 30%;
+}
+.editDetails{
+    width: 70%;
+}

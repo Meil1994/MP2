@@ -10,27 +10,31 @@ const UploadItems = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-
-fetch('http://localhost:3300/storeitems', {
-  method: 'POST',
-  headers: {
-    'Content-Type': 'application/json'
-  },
-  body: JSON.stringify({
-    title: title,
-    seller: seller,
-    price: price,
-    icon: icon
-  })
-})
-.then((res) => {
-    alert('Item was successfully posted. You can now view it at the store dashboard')
-    window.location.reload();
-})
-.then(response => response.json())
-.then(data => console.log(data))
-.catch(error => console.error(error));
-}
+  
+    fetch('http://localhost:3300/storeitems', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        title: title,
+        seller: seller,
+        price: price,
+        icon: icon
+      })
+    })
+    .then((res) => {
+      if (res.ok) {
+        alert('Item was successfully posted. You can now view it at the store dashboard');
+        window.location.reload();
+        return res.json();
+      } else {
+        throw new Error('Unable to add item');
+      }
+    })
+    .then(data => console.log(data))
+    .catch(error => console.error(error));
+  }
 
 useEffect(() => {
     fetch("http://localhost:3200/profile")
@@ -43,7 +47,8 @@ useEffect(() => {
   }, []);
 
   const handlePhotoChange = (e) => {
-    setIcon(e.target.files[0]);
+    const file = e.target.files[0];
+    setIcon(file);
   }
 
   return (

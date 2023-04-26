@@ -1,67 +1,39 @@
 {
   "cart": [
     {
+      "icon": "photos/image-2.png",
+      "title": "Repeat Belt Bag by Versace",
+      "seller": "Andres A.",
+      "price": "4000",
+      "id": 14
+    },
+    {
       "icon": "photos/image-1.png",
       "title": "Varsity Logo Bomber Jacket",
       "seller": "Sofia B.",
       "price": "6000",
-      "id": 9
-    },
-    {
-      "icon": "photos/image-4.png",
-      "title": "Fjällräven Expedition Jacket",
-      "seller": "Mark C.",
-      "price": "4000",
-      "id": 10
-    },
-    {
-      "icon": "photos/image-5.png",
-      "title": "Fjällräven Equipment T-Shirt",
-      "seller": "Mark C.",
-      "price": "1000",
-      "id": 11
-    },
-    {
-      "icon": "photos/image-6.png",
-      "title": "Fjällräven Vidda Pro Trousers",
-      "seller": "Mark C.",
-      "price": "2000",
-      "id": 12
-    },
-    {
-      "icon": "photos/image-3.png",
-      "title": "Logo Windbreaker Jacket",
-      "seller": "Mark C.",
-      "price": "5000",
-      "id": 13
-    },
-    {
-      "icon": "photos/image-3.png",
-      "title": "Logo Windbreaker Jacket",
-      "seller": "Mark C.",
-      "price": "5000",
-      "id": 14
-    },
-    {
-      "icon": "photos/image-4.png",
-      "title": "Fjällräven Expedition Jacket",
-      "seller": "Mark C.",
-      "price": "4000",
       "id": 15
     },
     {
-      "icon": {},
-      "title": "fgdfgdf",
-      "seller": "gdfgd",
-      "price": "12121",
+      "icon": "photos/image-1.png",
+      "title": "Varsity Logo Bomber Jacket",
+      "seller": "Sofia B.",
+      "price": "6000",
       "id": 16
     },
     {
-      "icon": {},
-      "title": "My item",
-      "seller": "Jason",
-      "price": "1500",
+      "icon": "photos/image-2.png",
+      "title": "Repeat Belt Bag by Versace",
+      "seller": "Andres A.",
+      "price": "4000",
       "id": 17
+    },
+    {
+      "icon": "photos/image-1.png",
+      "title": "Varsity Logo Bomber Jacket",
+      "seller": "Sofia B.",
+      "price": "6000",
+      "id": 18
     }
   ]
 }

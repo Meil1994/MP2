@@ -29,67 +29,102 @@
       "price": "4000"
     },
     {
-      "id": 5,
-      "icon": "photos/image-5.png",
-      "title": "Fjällräven Equipment T-Shirt",
-      "seller": "Mark C.",
-      "price": "1000"
-    },
-    {
-      "id": 6,
-      "icon": "photos/image-6.png",
-      "title": "Fjällräven Vidda Pro Trousers",
-      "seller": "Mark C.",
-      "price": "2000"
-    },
-    {
-      "title": "fgdfgdf",
-      "seller": "gdfgd",
-      "price": "12121",
+      "title": "fghfgh",
+      "seller": "Jason",
+      "price": "123",
       "icon": {},
+      "id": 5
+    },
+    {
+      "title": "hjkhjk",
+      "seller": "Jason",
+      "price": "121",
+      "icon": null,
+      "id": 6
+    },
+    {
+      "title": "ghjghj",
+      "seller": "Jason",
+      "price": "1212",
+      "icon": null,
       "id": 7
     },
     {
-      "title": "fgdfgdf",
-      "seller": "gdfgd",
-      "price": "12121",
-      "icon": {},
+      "title": "ghjghj",
+      "seller": "Jason",
+      "price": "1212",
+      "icon": null,
       "id": 8
     },
     {
-      "title": "fgdfgdf",
-      "seller": "gdfgd",
-      "price": "12121",
-      "icon": {},
+      "title": "ghjghj",
+      "seller": "Jason",
+      "price": "1212",
+      "icon": null,
       "id": 9
     },
     {
-      "title": "fgdfgdf",
-      "seller": "gdfgd",
-      "price": "12121",
-      "icon": {},
+      "title": "ghjghj",
+      "seller": "Jason",
+      "price": "1212",
+      "icon": null,
       "id": 10
     },
     {
-      "title": "",
+      "title": "ghjghj",
       "seller": "Jason",
-      "price": "",
+      "price": "1212",
       "icon": null,
       "id": 11
     },
     {
-      "title": "sdafsdf",
+      "title": "fghfghfghfgh",
       "seller": "Jason",
-      "price": "2142121",
+      "price": "400",
       "icon": {},
       "id": 12
     },
     {
-      "title": "My item",
+      "title": "fghfghfghfgh",
       "seller": "Jason",
-      "price": "1500",
+      "price": "400",
       "icon": {},
       "id": 13
+    },
+    {
+      "title": "dfhfgh",
+      "seller": "Jason",
+      "price": "121",
+      "icon": {},
+      "id": 14
+    },
+    {
+      "title": "yjkt",
+      "seller": "Jason",
+      "price": "123",
+      "icon": null,
+      "id": 15
+    },
+    {
+      "title": "yjkt",
+      "seller": "Jason",
+      "price": "123",
+      "icon": null,
+      "id": 16
+    },
+    {
+      "title": "sdfsdfsdf",
+      "seller": "Jason",
+      "price": "124",
+      "icon": {},
+      "id": 17
+    },
+    {
+      "title": "My jacket",
+      "seller": "Jason",
+      "price": "200",
+      "icon": {},
+      "id": 18
     }
   ]
 }
